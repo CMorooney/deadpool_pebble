@@ -1,0 +1,30 @@
+{
+  "uuid": "4a822901-39d7-42f0-b013-a129e99e39ac",
+  "shortName": "deadpool-watchface",
+  "longName": "deadpool-watchface",
+  "companyName": "Calvin Morooney",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["chalk"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "bitmap",
+        "name": "DEADPOOL_FACE",
+        "file": "images/resized.png"
+      },
+      {
+        "characterRegex": "[0-9:APM ]",
+        "type": "font",
+        "name": "FONT_MILITARY_36",
+        "file": "fonts/Top_Secret.ttf"
+      }
+    ]
+  }
+}
