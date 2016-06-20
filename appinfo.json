@@ -5,7 +5,7 @@
   "companyName": "Calvin Morooney",
   "versionLabel": "1.0",
   "sdkVersion": "3",
-  "targetPlatforms": ["chalk"],
+  "targetPlatforms": ["chalk", "basalt"],
   "watchapp": {
     "watchface": true
   },
@@ -18,6 +18,11 @@
         "type": "bitmap",
         "name": "DEADPOOL_FACE",
         "file": "images/resized.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "DEADPOOL_FACE_SQUARE",
+        "file": "images/converted.png"
       },
       {
         "characterRegex": "[0-9:APM ]",

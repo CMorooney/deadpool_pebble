@@ -26,7 +26,11 @@ static void window_load(Window *window) {
   Layer *window_layer = window_get_root_layer(window);
   GRect bounds = layer_get_bounds(window_layer);
 
+  #if defined (PBL_PLATFORM_BASALT)
+  background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_DEADPOOL_FACE_SQUARE);
+  #else
   background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_DEADPOOL_FACE);
+  #endif
   background_layer = bitmap_layer_create(bounds);
 
   bitmap_layer_set_bitmap(background_layer, background_bitmap);
