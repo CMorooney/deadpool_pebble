@@ -3,7 +3,7 @@
   "shortName": "deadpool-watchface",
   "longName": "deadpool-watchface",
   "companyName": "Calvin Morooney",
-  "versionLabel": "1.0",
+  "versionLabel": "1.1",
   "sdkVersion": "3",
   "targetPlatforms": ["chalk", "basalt"],
   "watchapp": {
